@@ -1,13 +1,11 @@
 window.SUB_WIDGET_CONFIG = {
-  // Replace this after deploying the Cloudflare Worker.
-  workerUrl: "https://YOUR-WORKER.YOUR-SUBDOMAIN.workers.dev",
+  workerUrl: "https://polished-silence-32bf.forrest-inman89.workers.dev",
 
-  // Unique channel name used by the Worker.
   channel: "ledyym",
 
   label: "TOTAL SUBS",
   pollEveryMs: 5000,
-  fallbackValue: 8869,
+  fallbackValue: 9189,
   debug: true,
 
   labelColor: "#ffffff",
